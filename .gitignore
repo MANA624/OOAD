@@ -1,2 +1,5 @@
-.idea
-.tex
+*.idea
+*.tex
+*.aux
+*.gz
+*.log
