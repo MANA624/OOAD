@@ -4,3 +4,4 @@
 *.gz
 *.log
 *.iml
+*.DS_Store

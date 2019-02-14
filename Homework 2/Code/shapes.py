@@ -12,6 +12,11 @@ class Shape(ABC):
         print("You made a {} object!".format(self.shape_name))
 
     # Relies in part on an implementation by the subclass
+    # This is different from the previous implementation,
+    # where the entire implementation was done at the
+    # superclass level, which didn't allow for any
+    # granularity at the subclass level, but also gives
+    # common functionality
     @abstractmethod
     def print_shape(self):
         print(self.shape_string)
